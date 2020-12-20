@@ -1,0 +1,13 @@
+body {
+	background: rgb(197,204,211); 
+}
+
+#title {
+	margin-left: 46px;
+	margin-bottom: 8px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: bold;
+}
+

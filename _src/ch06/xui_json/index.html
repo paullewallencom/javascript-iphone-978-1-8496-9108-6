@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="apple-touch-icon" href="../../uiuikit/images/apple-touch-icon.png" />
+	<meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<title>JSON</title>
+	<link rel="stylesheet" href="../../uiuikit/stylesheets/iphone.css" />
+	<script type="text/javascript" charset="utf-8" src="../../xui/xui-2.0.0.min.js"> </script>
+	<script type="text/javascript" charset="utf-8" src="../../xui/xhrjson.js"> </script>
+	<script type="text/javascript">
+	function get_data() {
+		x$(window).xhrjson('data.json', {map:{'username':'#name', 'age':'#age'}})
+	}
+	</script>
+</head>
+<body>
+
+	<ul class="field"> 
+		<li>
+			<h3>Name:</h3>
+			<a href="#" id="name"></a>
+		</li> 
+		<li>
+			<h3>Age:</h3>
+			<a href="#" id="age"></a>
+		</li> 
+	</ul>
+
+	<p>
+      <a href="#" onclick="get_data()" class="button white">Get data!</a>
+  </p>
+
+</body>
+</html>

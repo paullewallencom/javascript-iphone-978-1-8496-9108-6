@@ -1,0 +1,103 @@
+Tplay_phonegap
+v7
+r1
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/Default.png
+c000000004D00B5040000000000000BAE
+t1291891972
+s2990
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/PhoneGap.plist
+c000000004D00B504000000000000027E
+t1291891972
+s638
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/Info.plist
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/PkgInfo
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/Resources/PhoneGap.plist
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/Resources/VERSION
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/Resources/www
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/play_phonegap.build/Debug/play_phonegap.build/Script-304B58A110DAC018002A0835.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/build/play_phonegap.build/Debug/play_phonegap.build/Script-30E9A9A110B758320022D3BA.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/icon.png
+c000000004D00B5050000000000000C36
+t1291891973
+s3126
+
+N/Library/WebServer/Documents/code/ch05/play_phonegap/www
+c000000004D00B5050000000000000066
+t1291891973
+s102
+
+N/Users/arturo/Documents/PhoneGapLib/VERSION
+c000000004C0E3C4A0000000000000005
+t1276001354
+s5
+
+Nplay_phonegap-Info.plist
+c000000004D00B50400000000000005C2
+t1291891972
+s1474
+
+CCopyPlistFile /Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/Resources/PhoneGap.plist PhoneGap.plist
+r0
+
+CCpResource build/Debug/play_phonegap.app/Contents/Resources/Default.png Default.png
+r0
+
+CCpResource build/Debug/play_phonegap.app/Contents/Resources/VERSION /Users/arturo/Documents/PhoneGapLib/VERSION
+r0
+
+CCpResource build/Debug/play_phonegap.app/Contents/Resources/icon.png icon.png
+r0
+
+CCpResource build/Debug/play_phonegap.app/Contents/Resources/www www
+r0
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" /Library/WebServer/Documents/code/ch05/play_phonegap/build/play_phonegap.build/Debug/play_phonegap.build/Script-30E9A9A110B758320022D3BA.sh
+r0
+
+CPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/code/ch05/play_phonegap/build/play_phonegap.build/Debug/play_phonegap.build/Script-304B58A110DAC018002A0835.sh
+r0
+
+CProcessInfoPlistFile /Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app/Contents/Info.plist play_phonegap-Info.plist
+r0
+
+CTouch /Library/WebServer/Documents/code/ch05/play_phonegap/build/Debug/play_phonegap.app
+r0
+

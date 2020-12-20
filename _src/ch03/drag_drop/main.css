@@ -1,0 +1,37 @@
+#draggable {
+    width: 100px;
+		color: white;
+    height: 100px;
+    background-color: blue;
+    top: 170px;
+    left: 5px;
+    position: absolute;
+    padding-top: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#draggable.x-dragging {
+    background-color: black;
+}
+
+#droppable {
+    text-align: center;
+		color: white;
+    border-top: 1px solid;
+    padding-top: 60px;
+    height: 150px;
+    width: 210px;
+    background-color: red;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+#droppable.x-drop-active {
+    background-color: green;
+}
+
+#droppable.x-drop-hover {
+    background-color: blue;
+}

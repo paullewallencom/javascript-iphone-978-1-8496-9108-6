@@ -1,0 +1,13 @@
+278d680fa411d48de0eb2a5c39de3183 c29388ec8c8800148557bba89c521de1 ffffffffffffffffffffffffffffffff 340 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app
+00000000000000000000000000000000 00000000000000000000000000000000 ffffffffffffffffffffffffffffffff 204 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/www
+1987f7dee0461403daa66ea9ab7ba4c1 0061bb632e25e021d6229fec3be7a943 ffffffffffffffffffffffffffffffff 46068 /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beepAppDelegate.o
+1987f7deacd3cf32daa66ea9ab7ab5e9 613b6bb8e04a91efef01f100fa7aadc2 ffffffffffffffffffffffffffffffff 6492 /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/main.o
+00000000000000000000000000000000 53ea1aab567e84cca152ed99df7b5c66 ffffffffffffffffffffffffffffffff 102 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app.dSYM
+615ad0dbce47556239236eecc075f031 ef87549adc8ab54ffb5f2c739f8fc001 ffffffffffffffffffffffffffffffff 264012 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep
+000000004cc5f7dd0000000000001d1a 1987f7dee0898293daa66ea9ab7aa051 ffffffffffffffffffffffffffffffff 15240208 /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/beep_Prefix-bwqdzigrwdaudqcpawjqbhqhokqu/beep_Prefix.pch.gch
+000000004cfdfb91000000000000027e 620b88983a14fae4737d8d22fc2b2562 ffffffffffffffffffffffffffffffff 255 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/PhoneGap.plist
+00000000000000000000000000000000 e8dc3d58f0d617727f7f55183571544c ffffffffffffffffffffffffffffffff 3126 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/icon.png
+00000000000000000000000000000000 9ff66b3ac33423511728c0198067ece9 ffffffffffffffffffffffffffffffff 2990 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/Default.png
+00000000000000000000000000000000 cd91aff8e0123a6f2997351aac2fe8cd ffffffffffffffffffffffffffffffff 5 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/VERSION
+00000000000000000000000000000000 84ab52c103c88e1514810d573e3d14c5 ffffffffffffffffffffffffffffffff 8 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/PkgInfo
+00000000000000000000000000000000 84ab52c103c88e1514810d573e3d14c5 ffffffffffffffffffffffffffffffff 913 /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/Info.plist

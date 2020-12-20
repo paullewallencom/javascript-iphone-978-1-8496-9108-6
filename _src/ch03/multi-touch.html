@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<link href="../iwebkit/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="../iwebkit/javascript/functions.js" type="text/javascript"></script>
+<title>Multi-touch</title>
+<script type="text/javascript" charset="utf-8">
+	function gesture_start(event) {
+		alert("Two or more fingers touched the screen");
+	}
+	function gesture_change(event) {
+		alert("Two or more fingers were moved");
+	}
+</script>
+</head>
+<body ongesturestart="gesture_start(event)" ongesturechange="gesture_change(event)">
+<div id="topbar">
+	<div id="title">Testing gestures</div>
+</div>
+</body>
+</html>
+
+

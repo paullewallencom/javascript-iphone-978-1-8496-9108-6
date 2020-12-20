@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=0;" />
+  <script type="text/javascript" src="../../xui/xui-2.0.0.min.js"></script>
+	<link rel="stylesheet" href="../../uiuikit/stylesheets/iphone.css" />
+		<style type="text/css">
+    #btn_start, #btn_stop, #btn_distance {
+        margin-right: 12px;
+    }
+  </style>
+
+<title>Geolocation</title>
+<script type="text/javascript" charset="utf-8">
+
+	var pA;
+	var pB;
+
+	function onSuccessA(pos) {
+		pA = pos.coords;
+	} 
+
+	function onSuccessB(pos) {
+		pB = pos.coords;
+	} 
+
+	function onError(msg) {
+		alert("Error!: " + msg);
+	}
+
+	function get_distance(pointA, pointB) {
+		var distanceLat = (pointB.latitude - pointA.latitude).toRad();
+		var distanceLong = (pointB.longitude - pointA.longitude).toRad(); 
+		var a = Math.sin(distanceLat/2) * Math.sin(distanceLat/2) +
+		        Math.cos(lat1.toRad()) * Math.cos(lat2.toRad()) * 
+		        Math.sin(distanceLong/2) * Math.sin(distanceLong/2); 
+		var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+		var distance = radius * c;
+		var ele = "<p>Distance between A and B is: " + distance + " km.</p>";
+		x$('#btn_distance').html('after', ele);
+	}
+
+	function get_distance_points() {
+		get_distance(pA, pB);
+	}
+	
+	function get_point_a() {
+		x$('#btn_lnk_stop').setStyle('display', 'block'); 
+		navigator.geolocation.getCurrentPosition(onSuccessA, onError);
+	}
+	
+	function get_point_b() {
+		x$('#btn_lnk_distance').setStyle('display', 'block');
+		navigator.geolocation.getCurrentPosition(onSuccessB, onError);
+	}
+	</script>
+</head>
+
+<body>
+
+	<div id="header">
+		<h1>Distances</h1>
+	</div>
+
+	<h1>Calculating distances</h1>
+	
+	<p id="btn_start"><a href="#" onclick="get_point_a()" class="button white" >Get point A</a></p>
+	<p id="btn_stop"><a href="#" onclick="get_point_b()" class="button white" style="display: none" id="btn_lnk_stop" >Get point B</a></p>
+	<p id="btn_distance"><a href="#" onclick="get_distance_points()" class="button white" style="display: none" id="btn_lnk_distance">Get distance</a></p>
+	
+</body>
+</html>

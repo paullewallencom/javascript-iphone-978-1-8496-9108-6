@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<link href="../iwebkit/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="../iwebkit/javascript/functions.js" type="text/javascript"></script>
+<title>One-finger</title>
+<script type="text/javascript" charset="utf-8">
+	function touch_start(event) {
+		alert("Your finger touched the screen");
+	}
+	function touch_start(event) {
+		//alert("Your finger touched the screen");
+	}
+	function touch_end(event) {
+		alert("Your finger was removed from the screen");
+	}
+	function touch_move(event) {
+		alert("Moving!");
+	}
+</script>
+</head>
+<body ontouchstart="touch_start(event);" ontouchend="touch_end(event);" ontouchmove="touch_move(event);">
+
+<div id="topbar">
+	<div id="title">Testing events</div>
+</div>
+
+</body>
+</html>

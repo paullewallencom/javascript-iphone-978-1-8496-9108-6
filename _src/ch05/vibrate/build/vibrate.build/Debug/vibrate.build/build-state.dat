@@ -1,0 +1,103 @@
+Tvibrate
+v7
+r1
+
+N/Library/WebServer/Documents/code/ch05/vibrate/Default.png
+c000000004CFE2A620000000000000BAE
+t1291725410
+s2990
+
+N/Library/WebServer/Documents/code/ch05/vibrate/PhoneGap.plist
+c000000004CFE2A62000000000000027E
+t1291725410
+s638
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/Info.plist
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/PkgInfo
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/Resources/PhoneGap.plist
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/Resources/VERSION
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/Resources/www
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug/vibrate.build/Script-304B58A110DAC018002A0835.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug/vibrate.build/Script-30E9A9A110B758320022D3BA.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch05/vibrate/icon.png
+c000000004CFE2A620000000000000C36
+t1291725410
+s3126
+
+N/Library/WebServer/Documents/code/ch05/vibrate/www
+c000000004CFE2B0800000000000000AA
+t1291725576
+s170
+
+N/Users/arturo/Documents/PhoneGapLib/VERSION
+c000000004C0E3C4A0000000000000005
+t1276001354
+s5
+
+Nvibrate-Info.plist
+c000000004CFE2A6200000000000005C2
+t1291725410
+s1474
+
+CCopyPlistFile /Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/Resources/PhoneGap.plist PhoneGap.plist
+r0
+
+CCpResource build/Debug/vibrate.app/Contents/Resources/Default.png Default.png
+r0
+
+CCpResource build/Debug/vibrate.app/Contents/Resources/VERSION /Users/arturo/Documents/PhoneGapLib/VERSION
+r0
+
+CCpResource build/Debug/vibrate.app/Contents/Resources/icon.png icon.png
+r0
+
+CCpResource build/Debug/vibrate.app/Contents/Resources/www www
+r0
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug/vibrate.build/Script-30E9A9A110B758320022D3BA.sh
+r0
+
+CPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug/vibrate.build/Script-304B58A110DAC018002A0835.sh
+r0
+
+CProcessInfoPlistFile /Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app/Contents/Info.plist vibrate-Info.plist
+r0
+
+CTouch /Library/WebServer/Documents/code/ch05/vibrate/build/Debug/vibrate.app
+r0
+

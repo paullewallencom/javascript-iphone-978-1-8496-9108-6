@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+#					README file
+#
+#	  Author: Arturo Fernandez
+#-----------------------------------------------------------
+
+Description
+------------
+	Code for chapter 3.
+
+How to running the code
+-----------------------
+
+	You need to copy this directory inside your DocumenRoot (web server).
+
+	The code for different frameworks used by these files must be at the parent
+	directory.

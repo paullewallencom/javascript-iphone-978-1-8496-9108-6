@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=0;" />
+	<link rel="stylesheet" href="../../uiuikit/stylesheets/iphone.css" />
+	<script type="text/javascript" src="../../xui-2.0.0.min.js"></script>
+	
+<title>Inserting a new record</title>
+<script type="text/javascript" charset="utf-8">
+
+	var db;
+	
+	function onError(tx, error) {
+		alert("Error: " + error.message + "; Code: " + error.code);
+		return true;
+	}
+
+	function onSuccessRecord(tx, res) {
+		alert("New record added!");
+	}
+
+	function onSuccessTable(tx, res) {
+		// Test the following line on Safari Mobile
+		console.log("database open/created");
+		return true;
+	}	
+
+	function create_db() {
+		var db_kb_size = 256;
+		var db_size = 1024 * db_kb_size;
+		db = openDatabase('firstDB', '1.0', 'firstDB', db_kb_size);
+	}
+
+	function create_table() {
+				db.transaction(
+	    	    function(tx) {
+	    	        tx.executeSql(
+	    	            'CREATE TABLE IF NOT EXISTS alumni ' +
+	    	            '   (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, ' +
+	    	            '    first_name VARCHAR(255) NOT NULL, ' +
+	    	            '    last_name VARCHAR(255) NOT NULL, ' +
+	    	            '    email VARCHAR(255) NOT NULL, ' +
+	    	            '    age INTEGER NULL)',
+										[],
+					 					onSuccessTable,
+					 					onError
+	 							);
+						}	
+	 			);
+	}	
+
+	function ini_db() {
+		create_db();
+		create_table();	
+	}
+
+	function insert_record() {
+      var first_name = document.frm.first_name.value;
+			var last_name = document.frm.last_name.value;
+			var email = document.frm.email.value;
+			var age = document.frm.age.value;
+
+			db.transaction(
+    	    function(tx) {
+    	        tx.executeSql(
+									// Uncomment the following line for displaying errors
+    	            //'INSERT INTO alumni (dffirst_name, last_name, email, age) ' +
+    	            'INSERT INTO alumni (first_name, last_name, email, age) ' +
+									'VALUES (?, ?, ?, ?);',
+									[first_name, last_name, email, age],
+									function(tx, res) {
+										alert("New record added!");
+									}	,
+									onError
+							);
+					}	
+ 			);
+	}
+	</script>
+</head>
+
+<body onload="ini_db();">
+
+	<div id="header">
+		<h1>Inserting record</h1>
+	</div>
+
+	<h1>New student</h1>
+		
+		<form name="frm">
+		<ul class="form">
+			<li>
+				<input type="text" name="first_name" placeholder="First name" id="first_name" value="" />
+			</li>
+			<li>
+				<input type="text" name="last_name" placeholder="Last name" id="last_name" value="" />
+			</li>
+			<li>
+				<input type="text" name="email" placeholder="e-mail" id="email" value="" />
+			</li>
+			<li>
+				<input type="text" name="age" placeholder="age" id="age" value="" />
+			</li>
+	</ul>
+
+	<p><a href="#" onclick="insert_record()" class="button white">Insert</a></p>
+	
+	</form>
+	</div>
+
+</body>
+</html>

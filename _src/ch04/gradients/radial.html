@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"  />
+<link href="../iwebkit/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="../iwebkit/javascript/functions.js" type="text/javascript"></script>
+<script type="text/javascript">
+    function drawFigure() {
+        var canvas = document.getElementById("thecanvas");
+        var ctx = canvas.getContext("2d");
+        var grad = ctx.createRadialGradient( 300, 300, 0, 300, 300, 300);
+        grad.addColorStop(0, "8a084b");
+        grad.addColorStop(0.2, "8a084b");
+        grad.addColorStop(0.25, "#33aaee");
+        grad.addColorStop(0.45, "#fe9a2e");
+        grad.addColorStop(0.55, "#eeeeee");
+        grad.addColorStop(0.8, "#f7fe2e");
+        grad.addColorStop(0.95, "8a084b");
+        grad.addColorStop(1, "8a084b");
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, 300, 300);
+    }
+</script>
+<title>Radial Gradient</title>
+</head>
+
+<body onload="drawFigure()">
+	<div id="topbar">
+		<div id="title">Radial Gradient</div>
+	</div>
+	<div id="content">
+		<canvas id="thecanvas" width="300" height="300"></canvas>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<!-- Change this if you want to allow scaling -->
+    <meta name="viewport" content="width=default-width; user-scalable=no" />
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>Notification box</title>
+	
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />		
+	
+	<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+	
+	function onBodyLoad()
+	{
+		document.addEventListener("deviceready",onDeviceReady,false);
+	}
+	
+	
+	function onDeviceReady()
+	{   
+		showAlert();
+	}
+    
+    function showAlert() {
+    navigator.notification.alert(
+    'Are you sure?',  
+    'Closing your app', 
+     	'Yes',
+	‘No’,
+	{
+		onClose: function(btn) {
+			if (btn == 1) {
+				closeApp();
+}
+		}
+}                  
+);
+
+    /*
+        navigator.notification.alert(
+            'This is the alert box', 
+            'Your new title',           
+            'Done'                 
+        );
+        */
+    }
+    
+    </script>
+  </head>
+  <body onload="onBodyLoad()">
+  	<div id="header">
+		<h1>Notification box</h1>	
+	</div>
+  </body>
+</html>

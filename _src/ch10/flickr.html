@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="apple-touch-icon" href="../uiuikit/images/apple-touch-icon.png" />
+	<meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<title>My Flickr</title>
+	<link rel="stylesheet" href="../uiuikit/stylesheets/iphone.css" />
+	<style type="text/css">
+	body {
+		background: rgb(197,204,211) url(../images/stripes.png) !important;
+		}
+	</style>
+	<script type="text/javascript" charset="utf-8" src="../xui-2.0.0.min.js"> </script>
+	<script type="text/javascript">
+  function buildPhotoURL(photo, psize) {
+    psize = (typeof(psize) == 'undefined') ? '_s' : psize;
+	var url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + 
+				"/" + photo.id + "_" + photo.secret +  psize + ".jpg";;
+	return url;
+}
+
+	function get_data() {
+    x$(window).xhr('http://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&per_page=20&page=1&&user_id=41152606@N03&jsoncallback=?&api_key=1a66f4e75c44f13656d97a712a443740&format=json', {
+    	callback: function() {
+    	    var jsonData = this.responseText.substring(14, (this.responseText.length-1) );
+    	    var data = eval("(" + jsonData + ')');
+					var ele = "";
+    	    	for (var i=0; i < data.photos.photo.length; i++) {
+    	        	var photoURL = buildPhotoURL(data.photos.photo[i]);
+								ele += "<li><img src=" + photoURL + " />";
+    	        }
+					x$('#grid').html(ele);
+    	}
+    });
+
+	}
+	</script>
+</head>
+<body id="images" onload="javascript: get_data()">
+
+	<div id="header">
+		<h1>Flickr Album</h1>
+	</div>
+
+	<ul id="grid"> 
+	</ul>
+
+</body>
+</html>

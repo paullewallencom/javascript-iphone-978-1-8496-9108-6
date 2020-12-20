@@ -1,0 +1,10 @@
+body {
+		background: rgb(197,204,211); 
+}
+.tab {
+    background-color: #78bcf0;
+    text-align: center;
+    color: #204167;
+    font-size: 1.5em;
+    padding-top: 100px;
+}

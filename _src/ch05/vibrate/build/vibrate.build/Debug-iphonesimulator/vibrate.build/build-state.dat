@@ -1,0 +1,498 @@
+Tvibrate
+v7
+r0
+t313418398.687228
+cCheck dependencies
+cProcessInfoPlistFile /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/Info.plist vibrate-Info.plist
+cPhaseScriptExecution "Copy PhoneGap Javascript" /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-30E9A9A110B758320022D3BA.sh
+cPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-304B58A110DAC018002A0835.sh
+cCpResource build/Debug-iphonesimulator/vibrate.app/www www
+cCpResource build/Debug-iphonesimulator/vibrate.app/VERSION /Users/arturo/Documents/PhoneGapLib/VERSION
+cCpResource build/Debug-iphonesimulator/vibrate.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/vibrate.app/icon.png icon.png
+cCopyPlistFile /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/PhoneGap.plist PhoneGap.plist
+cProcessPCH /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/vibrate_Prefix-gykdvytqfdnhlugigsnuldalenqc/vibrate_Prefix.pch.gch vibrate_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/main.o /Library/WebServer/Documents/code/ch05/vibrate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrateAppDelegate.o /Library/WebServer/Documents/code/ch05/vibrate/Classes/vibrateAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate normal i386
+cGenerateDSYMFile /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app.dSYM /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate
+cTouch /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C5A5EAD00000000000D2090
+t1280990893
+s860304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C5A5EA10000000000000703
+t1280990881
+s1795
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004C5A50360000000000075DC0
+t1280987190
+s482752
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABAddressBook.h
+c000000004C5A50320000000000000A8C
+t1280987186
+s2700
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004C5E1EA5000000000014B400
+t1281236645
+s1356800
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004C5E1E8A0000000000000202
+t1281236618
+s514
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C5A4D1600000000001E06E0
+t1280986390
+s1967840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004C5A4D020000000000010AAD
+t1280986370
+s68269
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004C5A4D8A00000000001C17C0
+t1280986506
+s1841088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C6C2FF1000000000006B7E0
+t1282158577
+s440288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004C6C2FEA00000000000001D0
+t1282158570
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004C68BA00000000000015B0F0
+t1281931776
+s1421552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004C5A5030000000000005AA60
+t1280987184
+s371296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004C5A4CD400000000000678D0
+t1280986324
+s424144
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h
+c000000004C6241EF0000000000001971
+t1281507823
+s6513
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITabBar.h
+c000000004C6241F00000000000000C05
+t1281507824
+s3077
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIToolbar.h
+c000000004C6241EE000000000000072C
+t1281507822
+s1836
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Library/WebServer/Documents/code/ch05/vibrate/Classes/vibrateAppDelegate.h
+c000000004CFE2A6200000000000000FE
+t1291725410
+s254
+i<UIKit/UIKit.h>
+i"PhoneGapDelegate.h"
+
+N/Library/WebServer/Documents/code/ch05/vibrate/Classes/vibrateAppDelegate.m
+c000000004CFE2A6200000000000007EC
+t1291725410
+s2028
+i"vibrateAppDelegate.h"
+i"PhoneGapViewController.h"
+
+N/Library/WebServer/Documents/code/ch05/vibrate/Default.png
+c000000004CFE2A620000000000000BAE
+t1291725410
+s2990
+
+N/Library/WebServer/Documents/code/ch05/vibrate/PhoneGap.plist
+c000000004CFE2A62000000000000027E
+t1291725410
+s638
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app
+t1291725598
+s340
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app.dSYM
+t1291725598
+s102
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/Default.png
+t1291725595
+s2990
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/Info.plist
+t1291725595
+s925
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/PhoneGap.plist
+t1291725596
+s255
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/PkgInfo
+t1291725595
+s8
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/VERSION
+t1291725595
+s5
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/icon.png
+t1291725595
+s3126
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate
+t1291725598
+s264108
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/www
+t1291725595
+s170
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/main.o
+t1291725598
+s6500
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrate.LinkFileList
+c000000004CFE2B1B0000000000000112
+t1291725595
+s274
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrateAppDelegate.o
+t1291725598
+s46192
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-304B58A110DAC018002A0835.sh
+c000000004CFE2B1B0000000000000027
+t1291725595
+s39
+
+N/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-30E9A9A110B758320022D3BA.sh
+c000000004CFE2B1B00000000000000BE
+t1291725595
+s190
+
+N/Library/WebServer/Documents/code/ch05/vibrate/icon.png
+c000000004CFE2A620000000000000C36
+t1291725410
+s3126
+
+N/Library/WebServer/Documents/code/ch05/vibrate/main.m
+c000000004CFE2A620000000000000175
+t1291725410
+s373
+i<UIKit/UIKit.h>
+
+N/Library/WebServer/Documents/code/ch05/vibrate/vibrate_Prefix.pch
+c000000004CFE2A6200000000000000B7
+t1291725410
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Library/WebServer/Documents/code/ch05/vibrate/www
+c000000004CFE4E6500000000000000CC
+t1291734629
+s204
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/Contacts.h
+c000000004C0E3C4A0000000000000A53
+t1276001354
+s2643
+i<Foundation/Foundation.h>
+i<AddressBook/ABAddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/DebugConsole.h
+c000000004C0E3C4A0000000000000170
+t1276001354
+s368
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/JSON/JSON.h
+c000000004C0E3C4A00000000000008F9
+t1276001354
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/Location.h
+c000000004C0E3C4A0000000000000530
+t1276001354
+s1328
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/PhoneGapCommand.h
+c000000004C0E3C4A00000000000002ED
+t1276001354
+s749
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/PhoneGapDelegate.h
+c000000004C0E3C4A00000000000006D8
+t1276001354
+s1752
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<UIKit/UINavigationController.h>
+i"JSON/JSON.h"
+i"Location.h"
+i"Sound.h"
+i"Contacts.h"
+i"DebugConsole.h"
+i"UIControls.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/PhoneGapViewController.h
+c000000004C0E3C4A0000000000000293
+t1276001354
+s659
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/Sound.h
+c000000004C0E3C4A000000000000060C
+t1276001354
+s1548
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i<AVFoundation/AVFoundation.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/UIControls.h
+c000000004C0E3C4A000000000000066A
+t1276001354
+s1642
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<UIKit/UITabBar.h>
+i<UIKit/UIToolbar.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/VERSION
+c000000004C0E3C4A0000000000000005
+t1276001354
+s5
+
+N/Users/arturo/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a
+c000000004CB344500000000000120348
+t1286816848
+s1180488
+
+N/Users/arturo/Documents/PhoneGapLib/build/Debug/libPhoneGapLib.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/vibrate_Prefix-gykdvytqfdnhlugigsnuldalenqc/vibrate_Prefix.pch.gch
+t1291725597
+s15240208
+
+Nvibrate-Info.plist
+c000000004CFE2A6200000000000005C2
+t1291725410
+s1474
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313418395#313418395#0(0"0(0#1#0"8621534592#0"0#
+
+CCompileC build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/main.o /Library/WebServer/Documents/code/ch05/vibrate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313418397.967898
+e313418398.042327
+r1
+xCompileC
+xbuild/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/main.o
+x/Library/WebServer/Documents/code/ch05/vibrate/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Library/WebServer/Documents/code/ch05/vibrate/main.m313418397#313418398#0(0"0(0#0#53"/Library/WebServer/Documents/code/ch05/vibrate/main.m8622661600#2053"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-generated-files.hmap -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-own-target-headers.hmap -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-all-target-headers.hmap -iquote /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-project-headers.hmap -F/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator -iquote/Users/arturo/Documents/PhoneGapLib/Classes -I/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/include -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources/i386 -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources -include /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/vibrate_Prefix-gykdvytqfdnhlugigsnuldalenqc/vibrate_Prefix.pch -c /Library/WebServer/Documents/code/ch05/vibrate/main.m -o /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/main.o0#
+
+CCompileC build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrateAppDelegate.o /Library/WebServer/Documents/code/ch05/vibrate/Classes/vibrateAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313418397.969448
+e313418398.273879
+r1
+xCompileC
+xbuild/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrateAppDelegate.o
+x/Library/WebServer/Documents/code/ch05/vibrate/Classes/vibrateAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Library/WebServer/Documents/code/ch05/vibrate/Classes/vibrateAppDelegate.m313418397#313418398#0(0"0(0#0#75"/Library/WebServer/Documents/code/ch05/vibrate/Classes/vibrateAppDelegate.m8622522944#2089"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-generated-files.hmap -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-own-target-headers.hmap -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-all-target-headers.hmap -iquote /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-project-headers.hmap -F/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator -iquote/Users/arturo/Documents/PhoneGapLib/Classes -I/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/include -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources/i386 -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources -include /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/vibrate_Prefix-gykdvytqfdnhlugigsnuldalenqc/vibrate_Prefix.pch -c /Library/WebServer/Documents/code/ch05/vibrate/Classes/vibrateAppDelegate.m -o /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrateAppDelegate.o0#
+
+CCopyPlistFile /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/PhoneGap.plist PhoneGap.plist
+s313418395.772191
+e313418396.169350
+r1
+xCopyPlistFile
+x/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/PhoneGap.plist
+xPhoneGap.plist
+lSLF07#2@19"Copy PhoneGap.plist313418395#313418396#0(0"0(0#0#61"/Library/WebServer/Documents/code/ch05/vibrate/PhoneGap.plist8621883840#405"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 PhoneGap.plist --outdir /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app0#
+
+CCpResource build/Debug-iphonesimulator/vibrate.app/Default.png Default.png
+s313418395.770854
+e313418395.796457
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/vibrate.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png313418395#313418395#0(0"0(0#0#58"/Library/WebServer/Documents/code/ch05/vibrate/Default.png8621938304#479"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/WebServer/Documents/code/ch05/vibrate/Default.png /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app0#
+
+CCpResource build/Debug-iphonesimulator/vibrate.app/VERSION /Users/arturo/Documents/PhoneGapLib/VERSION
+s313418395.770160
+e313418395.796872
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/vibrate.app/VERSION
+x/Users/arturo/Documents/PhoneGapLib/VERSION
+lSLF07#2@48"Copy /Users/arturo/Documents/PhoneGapLib/VERSION313418395#313418395#0(0"0(0#0#43"/Users/arturo/Documents/PhoneGapLib/VERSION8621070432#464"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/arturo/Documents/PhoneGapLib/VERSION /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app0#
+
+CCpResource build/Debug-iphonesimulator/vibrate.app/icon.png icon.png
+s313418395.771531
+e313418395.793794
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/vibrate.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png313418395#313418395#0(0"0(0#0#55"/Library/WebServer/Documents/code/ch05/vibrate/icon.png8620925248#476"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/WebServer/Documents/code/ch05/vibrate/icon.png /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app0#
+
+CCpResource build/Debug-iphonesimulator/vibrate.app/www www
+s313418395.769344
+e313418396.124782
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/vibrate.app/www
+xwww
+lSLF07#2@8"Copy www313418395#313418396#0(0"0(0#0#50"/Library/WebServer/Documents/code/ch05/vibrate/www8621648352#471"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/WebServer/Documents/code/ch05/vibrate/www /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app0#
+
+CGenerateDSYMFile /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app.dSYM /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate
+s313418398.474288
+e313418398.683014
+r1
+xGenerateDSYMFile
+x/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app.dSYM
+x/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/vibrate.app.dSYM build/Debug-iphonesimulator/vibrate.app/vibrate313418398#313418398#0(0"0(0#0#94"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate8622167200#407"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate -o /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app.dSYM0#
+
+CLd /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate normal i386
+s313418398.274063
+e313418398.474138
+r1
+xLd
+x/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate
+xnormal
+xi386
+lSLF07#2@99"Link /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate313418398#313418398#0(0"0(0#0#0"8622333472#1285"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator -F/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator -filelist /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrate.LinkFileList -mmacosx-version-min=10.6 -all_load -Obj-C -Xlinker -objc_abi_version -Xlinker 2 /Users/arturo/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -o /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/vibrate0#
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-30E9A9A110B758320022D3BA.sh
+s313418395.709820
+e313418395.750197
+r1
+xPhaseScriptExecution
+xCopy PhoneGap Javascript
+x/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-30E9A9A110B758320022D3BA.sh
+omake: Nothing to be done for `all'.
+ocp /Users/arturo/Documents/PhoneGapLib/javascripts/phonegap.js /Library/WebServer/Documents/code/ch05/vibrate/www/phonegap.js
+lSLF07#2@50"Run custom shell script 'Copy PhoneGap Javascript'313418395#313418395#0(162"make: Nothing to be done for `all'.cp /Users/arturo/Documents/PhoneGapLib/javascripts/phonegap.js /Library/WebServer/Documents/code/ch05/vibrate/www/phonegap.js2(13@36"make: Nothing to be done for `all'.313418395#0#36#0(1@0"0(13@126"cp /Users/arturo/Documents/PhoneGapLib/javascripts/phonegap.js /Library/WebServer/Documents/code/ch05/vibrate/www/phonegap.js313418395#36#126#0(1@0"0(0#0#0"8622090560#17437"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv ACTION build    setenv ALTERNATE_GROUP arturo    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER arturo    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Library/WebServer/Documents/code/ch05/vibrate/build    setenv BUILD_ROOT /Library/WebServer/Documents/code/ch05/vibrate/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH vibrate.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources    setenv DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH vibrate.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/vibrate.dst    setenv DWARF_DSYM_FILE_NAME vibrate.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH vibrate.app/Executables    setenv EXECUTABLE_FOLDER_PATH vibrate.app    setenv EXECUTABLE_NAME vibrate    setenv EXECUTABLE_PATH vibrate.app/vibrate    setenv FILE_LIST /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH vibrate.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME vibrate.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER vibrate_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP arturo    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE vibrate-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH vibrate.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH vibrate.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/vibrate.dst/Users/arturo/Applications    setenv INSTALL_GROUP arturo    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER arturo    setenv INSTALL_PATH /Users/arturo/Applications    setenv INSTALL_ROOT /tmp/vibrate.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH vibrate.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrate.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH vibrate.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects    setenv OBJECT_FILE_DIR_normal /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal    setenv OBJROOT /Library/WebServer/Documents/code/ch05/vibrate/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH vibrate.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/arturo/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/PkgInfo    setenv PKGINFO_PATH vibrate.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH vibrate.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH vibrate.app/PrivateHeaders    setenv PRODUCT_NAME vibrate    setenv PRODUCT_SETTINGS_PATH /Library/WebServer/Documents/code/ch05/vibrate/vibrate-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT vibrate    setenv PROJECT_DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/DerivedSources    setenv PROJECT_DIR /Library/WebServer/Documents/code/ch05/vibrate    setenv PROJECT_FILE_PATH /Library/WebServer/Documents/code/ch05/vibrate/vibrate.xcodeproj    setenv PROJECT_NAME vibrate    setenv PROJECT_TEMP_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build    setenv PUBLIC_HEADERS_FOLDER_PATH vibrate.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH vibrate.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_NAME iphonesimulator4.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH vibrate.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH vibrate.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Library/WebServer/Documents/code/ch05/vibrate    setenv SRCROOT /Library/WebServer/Documents/code/ch05/vibrate    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/SymbolRepositories    setenv SYMROOT /Library/WebServer/Documents/code/ch05/vibrate/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME vibrate    setenv TARGET_BUILD_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator    setenv TARGET_NAME vibrate    setenv TARGET_TEMP_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build    setenv TEMP_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build    setenv TEMP_FILES_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build    setenv TEMP_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build    setenv TEMP_ROOT /Library/WebServer/Documents/code/ch05/vibrate/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH vibrate.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER arturo    setenv USER_APPS_DIR /Users/arturo/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/arturo/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/arturo/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH vibrate.app/version.plist    setenv VERSION_INFO_BUILDER arturo    setenv VERSION_INFO_FILE vibrate_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:vibrate  PROJECT:vibrate-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME vibrate.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-30E9A9A110B758320022D3BA.sh0#
+
+CPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-304B58A110DAC018002A0835.sh
+s313418395.750324
+e313418395.768769
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-304B58A110DAC018002A0835.sh
+lSLF07#2@42"Run custom shell script 'Touch www folder'313418395#313418395#0(0"0(0#0#0"8619535808#17437"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv ACTION build    setenv ALTERNATE_GROUP arturo    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER arturo    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Library/WebServer/Documents/code/ch05/vibrate/build    setenv BUILD_ROOT /Library/WebServer/Documents/code/ch05/vibrate/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH vibrate.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources    setenv DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH vibrate.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/vibrate.dst    setenv DWARF_DSYM_FILE_NAME vibrate.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH vibrate.app/Executables    setenv EXECUTABLE_FOLDER_PATH vibrate.app    setenv EXECUTABLE_NAME vibrate    setenv EXECUTABLE_PATH vibrate.app/vibrate    setenv FILE_LIST /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH vibrate.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME vibrate.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER vibrate_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP arturo    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE vibrate-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH vibrate.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH vibrate.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/vibrate.dst/Users/arturo/Applications    setenv INSTALL_GROUP arturo    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER arturo    setenv INSTALL_PATH /Users/arturo/Applications    setenv INSTALL_ROOT /tmp/vibrate.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH vibrate.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal/i386/vibrate.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH vibrate.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects    setenv OBJECT_FILE_DIR_normal /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Objects-normal    setenv OBJROOT /Library/WebServer/Documents/code/ch05/vibrate/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH vibrate.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/arturo/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/PkgInfo    setenv PKGINFO_PATH vibrate.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH vibrate.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH vibrate.app/PrivateHeaders    setenv PRODUCT_NAME vibrate    setenv PRODUCT_SETTINGS_PATH /Library/WebServer/Documents/code/ch05/vibrate/vibrate-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT vibrate    setenv PROJECT_DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/DerivedSources    setenv PROJECT_DIR /Library/WebServer/Documents/code/ch05/vibrate    setenv PROJECT_FILE_PATH /Library/WebServer/Documents/code/ch05/vibrate/vibrate.xcodeproj    setenv PROJECT_NAME vibrate    setenv PROJECT_TEMP_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build    setenv PUBLIC_HEADERS_FOLDER_PATH vibrate.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH vibrate.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_NAME iphonesimulator4.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH vibrate.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH vibrate.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Library/WebServer/Documents/code/ch05/vibrate    setenv SRCROOT /Library/WebServer/Documents/code/ch05/vibrate    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/SymbolRepositories    setenv SYMROOT /Library/WebServer/Documents/code/ch05/vibrate/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME vibrate    setenv TARGET_BUILD_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator    setenv TARGET_NAME vibrate    setenv TARGET_TEMP_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build    setenv TEMP_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build    setenv TEMP_FILES_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build    setenv TEMP_FILE_DIR /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build    setenv TEMP_ROOT /Library/WebServer/Documents/code/ch05/vibrate/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH vibrate.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER arturo    setenv USER_APPS_DIR /Users/arturo/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/arturo/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/arturo/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH vibrate.app/version.plist    setenv VERSION_INFO_BUILDER arturo    setenv VERSION_INFO_FILE vibrate_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:vibrate  PROJECT:vibrate-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME vibrate.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/Script-304B58A110DAC018002A0835.sh0#
+
+CProcessInfoPlistFile /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/Info.plist vibrate-Info.plist
+s313418395.687352
+e313418395.709698
+r1
+xProcessInfoPlistFile
+x/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/Info.plist
+xvibrate-Info.plist
+lSLF07#2@26"Process vibrate-Info.plist313418395#313418395#0(0"0(0#0#65"/Library/WebServer/Documents/code/ch05/vibrate/vibrate-Info.plist8619884256#503"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility vibrate-Info.plist -genpkginfo /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app/Info.plist0#
+
+CProcessPCH /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/vibrate_Prefix-gykdvytqfdnhlugigsnuldalenqc/vibrate_Prefix.pch.gch vibrate_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313418396.169588
+e313418397.966190
+r1
+xProcessPCH
+x/var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/vibrate_Prefix-gykdvytqfdnhlugigsnuldalenqc/vibrate_Prefix.pch.gch
+xvibrate_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile vibrate_Prefix.pch313418396#313418397#0(0"0(0#0#65"/Library/WebServer/Documents/code/ch05/vibrate/vibrate_Prefix.pch8621307968#1937"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-generated-files.hmap -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-own-target-headers.hmap -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-all-target-headers.hmap -iquote /Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/vibrate-project-headers.hmap -F/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator -iquote/Users/arturo/Documents/PhoneGapLib/Classes -I/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/include -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources/i386 -I/Library/WebServer/Documents/code/ch05/vibrate/build/vibrate.build/Debug-iphonesimulator/vibrate.build/DerivedSources -c /Library/WebServer/Documents/code/ch05/vibrate/vibrate_Prefix.pch -o /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/vibrate_Prefix-gykdvytqfdnhlugigsnuldalenqc/vibrate_Prefix.pch.gch0#
+
+CTouch /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app
+s313418398.683145
+e313418398.687169
+r1
+xTouch
+x/Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app
+lSLF07#2@92"Touch /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app313418398#313418398#0(0"0(0#0#0"8622036800#294"    cd /Library/WebServer/Documents/code/ch05/vibrate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Library/WebServer/Documents/code/ch05/vibrate/build/Debug-iphonesimulator/vibrate.app0#
+

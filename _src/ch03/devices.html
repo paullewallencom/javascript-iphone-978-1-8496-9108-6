@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<title>Devices</title>
+<script type="text/javascript" charset="utf-8">
+function init() {
+	 var agent = navigator.userAgent;
+	 var device = '';
+	 var regex = new RegExp("^Mozilla/.*(iPhone|iPod|iPad).*(; U;).*(OS )(\\d_\\d_?\\d?)( like).*$");
+	 var match = regex.exec(agent);
+	 if (match != null) {
+			device = match[1];
+ 			alert("This device is an " + match[1] + ". Version: " + match[4].replace(/_/g, "."));
+	 } else {
+	 		alert("Sorry, this is not an iOS device");
+	 }
+}
+</script>
+</head>
+<body onload="init();"> </body>
+</html>

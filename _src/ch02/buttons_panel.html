@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="apple-touch-icon" href="../uiuikit/images/apple-touch-icon.png" />
+	<meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<title>Modal window</title>
+	<link rel="stylesheet" href="../uiuikit/stylesheets/iphone.css" />
+	
+	<script language="javascript"> 
+	<!--
+	function show_hide_box(div_box) {
+		element = document.getElementById(div_box);
+		if (element.style.display == 'block') { 
+			element.style.display = 'none';
+		} else { 
+			element.style.display = 'block';
+		} 
+	} 
+	//--> 
+	</script>
+		
+</head>
+
+<body>
+	
+	<div id="header">
+		<h1>Modal</h1>
+	</div>
+
+	<p>
+		<a class="green button" href="#" onclick="show_hide_box('optionpanel');">Show box</a>
+	</p>
+	
+	<div id="optionpanel" style="display: none">
+		<p>
+			<a class="black button" href="#">Black button </a> 
+			<a class="white button" href="#">White button</a> 
+			<a class="red button" href="#">Red button</a>
+		</p> 
+	</div>
+
+</body>
+</html>

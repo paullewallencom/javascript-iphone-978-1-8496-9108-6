@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+                      "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+  <meta name="viewport" content="width=default-width; user-scalable=no" />
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>Contact Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <link rel="stylesheet" href="uiuikit/stylesheets/iphone.css" />
+    <style type="text/css">
+    #mybtn {
+        margin-right: 12px;
+    }
+    </style>
+
+    <script type="text/javascript" charset="utf-8">
+
+   function preventBehavior(e) 
+	{ 
+      e.preventDefault(); 
+    };
+	document.addEventListener("touchmove", preventBehavior, false);
+
+    function onBodyLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    function onError(contactError) {
+    }
+    // PhoneGap is ready
+    //
+    function onDeviceReady() {
+
+    }
+    
+    function saveContact() {
+        var dataContact = {'firstName': document.frm.first_name.value, 'lastName': document.frm.last_name.value, 'phoneNumber': document.frm.phone.value};
+        navigator.contacts.newContact(dataContact, onSucessContact);
+        
+    }
+
+    
+    function onSucessContact(contact) {
+        navigator.notification.alert('Contact created', 'Contacts', "Done");
+    }
+    
+
+    </script>
+  </head>
+  <body onload="onBodyLoad()">
+    	<div id="header">
+		<h1>Contacts</h1>
+	</div>
+
+	<h1>New contact</h1>
+		
+	<form name="frm">
+	<ul class="form">
+		<li>
+			<input type="text" name="first_name" placeholder="First name" id="first_name" value="" />
+		</li>
+        <li>
+			<input type="text" name="last_name" placeholder="Last name" id="last_name" value="" />
+		</li>
+        <li>
+			<input type="text" name="phone" placeholder="Phone" id="phone" value="" />
+		</li>
+	</ul>
+	</form>
+
+	<p id="p_btn"><a href="#" id="mybtn" onclick="saveContact()" class="button white">Save</a></p>
+
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"  />
+<link href="../iwebkit/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="../iwebkit/javascript/functions.js" type="text/javascript"></script>
+<style type="text/css" media="screen">
+</style>
+<script type="text/javascript" charset="utf-8">
+	function drawFigure() {
+		var canv = document.getElementById("thecanvas");
+		var ctx = canv.getContext('2d');
+		ctx.beginPath();
+		/* First figure */
+		ctx.moveTo(10, 80);
+		ctx.lineTo(40, 10);
+		ctx.lineTo(200, 10);
+		ctx.lineTo(200, 10);
+		ctx.lineTo(165, 80);
+		ctx.closePath();
+		ctx.fillStyle = '#3eac3e';
+	  ctx.fill();	
+		/* Second figure */
+		ctx.beginPath();
+		ctx.moveTo(10, 150);
+		ctx.lineTo(10, 250);
+		ctx.lineTo(50, 200);
+		ctx.lineTo(90, 250);
+		ctx.lineTo(130, 200);
+		ctx.lineTo(170, 250);
+		ctx.lineTo(170, 150);
+		ctx.closePath();
+		ctx.fillStyle = '#295ea0';
+	  ctx.fill();	
+		/* Third figure */	
+		ctx.beginPath();
+		ctx.arc(235, 130, 40, 0, 360*Math.PI/180, true);
+		ctx.fillStyle = '#ffffff';
+	  ctx.fill();	
+	}
+</script>
+<title>Colors</title>
+</head>
+<body onload="drawFigure()">
+<div id="topbar">
+	<div id="title">Colors</div>
+</div>
+<div id="content">
+	<canvas id="thecanvas" width="300" height="300"></canvas>
+</div>
+</body>
+</html>

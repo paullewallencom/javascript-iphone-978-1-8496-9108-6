@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=0;" />
+	<link rel="stylesheet" href="../uiuikit/stylesheets/iphone.css" />
+	<script type="text/javascript" src="../xui/xui-2.0.0.min.js"></script>
+	
+<title>Records</title>
+<script type="text/javascript" charset="utf-8">
+
+	var db;
+	
+	function onError(tx, error) {
+		alert("Error: " + error.message + "; Code: " + error.code);
+		return true;
+	}
+
+	function onSuccess(tx, res) {
+			var html_res = "";
+
+			if (res.rows.length > 0) {
+				for (var i=0; i < res.rows.length; i++) {
+      	  var row = res.rows.item(i);
+					html_res += '<li><a href="">' + row.first_name + '</a></li>';
+				}
+			}
+			else {
+				html_res = "<li>No records were founded</li>";
+			}
+			x$('#rec_list').html( 'inner', html_res);
+	}
+
+
+	function create_db() {
+		var db_kb_size = 256;
+		var db_size = 1024 * db_kb_size;
+		db = openDatabase('firstDB', '1.0', 'firstDB', db_kb_size);
+	}
+
+
+	function select_records() {
+      var first_name = document.frm.first_name.value;
+
+			db.transaction(
+    	    function(tx) {
+    	        tx.executeSql(
+    	            'SELECT * FROM alumni WHERE first_name LIKE ?;',
+									["%" + first_name + "%"],
+									onSuccess,
+									onError
+							);
+					}	
+ 			);
+	}
+	</script>
+</head>
+
+<body onload="create_db();">
+
+	<div id="header">
+		<h1>Records</h1>
+	</div>
+
+	<h1>Searching</h1>
+		
+	<form name="frm">
+	<ul class="form">
+		<li>
+			<input type="text" name="first_name" placeholder="First name" id="first_name" value="" />
+		</li>
+	</ul>
+	</form>
+
+	<p id="p_btn"><a href="#" onclick="select_records()" class="button white">Search</a></p>
+
+	<ul id='rec_list'></ul>
+
+</form>
+
+</body>
+</html>

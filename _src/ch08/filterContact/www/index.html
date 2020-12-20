@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+                      "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+  <meta name="viewport" content="width=default-width; user-scalable=no" />
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>Contact Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <link rel="stylesheet" href="uiuikit/stylesheets/iphone.css" />
+    <script type="text/javascript" src="xui-2.0.0.min.js"></script>
+    <style type="text/css">
+    #mybtn {
+        margin-right: 12px;
+    }
+    </style>
+
+    <script type="text/javascript" charset="utf-8">
+
+   function preventBehavior(e) 
+	{ 
+      e.preventDefault(); 
+    };
+	document.addEventListener("touchmove", preventBehavior, false);
+
+    function onBodyLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    function onError(contactError) {
+        navigator.notification.alert('Error!', 'Error', "Error");
+    }
+    // PhoneGap is ready
+    //
+    function onDeviceReady() {
+                      }
+    
+    function searchContacts() {
+        var options = {};
+        options.nameFilter = document.frm.first_name.value;
+
+        navigator.contacts.getAllContacts(onSucessContact, onError, options);
+    }
+
+    function displayContact(contactID) {
+        navigator.contacts.displayContact(contactID, null, { "allowsEditing": false });
+    }
+    
+    function onSucessContact(contacts) {
+        var options = {};
+        options.allowsEditing = true;
+        var contactsLen = contacts.length;
+        var names = "";
+        if (contactsLen <= 0)
+            names = "<li>No contacts founded</li>";
+    for (var i = 0; i < contactsLen; i++) {
+ 
+        var firstName = contacts[i].firstName;
+        var lastName = contacts[i].lastName;
+        
+        names += '<li class="arrow"><a href="#" onclick="displayContact(' + contacts[i].recordID + ');' + '">' + firstName + " " + lastName + "</a></li>";
+                
+     }
+     x$('#ul_contacts').html( 'inner', names);
+    }
+    
+
+
+    </script>
+  </head>
+  <body onload="onBodyLoad()">
+    	<div id="header">
+		<h1>Contacts</h1>
+	</div>
+
+	<h1>Searching contacts</h1>
+		
+	<form name="frm">
+	<ul class="form">
+		<li>
+			<input type="text" name="first_name" placeholder="First name" id="first_name" value="" />
+		</li>
+       	</ul>
+	</form>
+
+	<p id="p_btn"><a href="#" id="mybtn" onclick="searchContacts()" class="button white">Search</a></p>
+    <ul id='ul_contacts'></ul>
+  </body>
+</html>

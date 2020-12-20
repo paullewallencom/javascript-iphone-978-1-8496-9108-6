@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"  />
+<style type="text/css" media="screen">
+</style>
+<link href="../iwebkit/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="../iwebkit/javascript/functions.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8">
+	function animate(theStyle) {
+		theStyle.webkitTransform = 'scale(.2)';
+	}
+</script>
+<style type="text/css" media="screen">
+	#picture {
+		padding-left: 10px;
+		-webkit-transition: all 4s;
+	}
+</style>
+<title>Scaling</title>
+</head>
+
+<body>
+<div id="topbar">
+	<div id="title">Scaling</div>
+</div>
+<div id="content">
+	<img src="pic-rot.png" id="picture" onclick="animate(this.style)" />
+</div>
+
+</body>
+
+</html>

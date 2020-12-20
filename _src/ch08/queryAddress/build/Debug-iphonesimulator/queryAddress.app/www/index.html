@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+                      "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+  <meta name="viewport" content="width=default-width; user-scalable=no" />
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>Contact Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" src="xui-core-1.0.0.js"></script>
+    <link rel="stylesheet" href="uiuikit/stylesheets/iphone.css" />
+    <style type="text/css">
+    #mybtn {
+        margin-right: 12px;
+    }
+    </style>
+
+    <script type="text/javascript" charset="utf-8">
+
+   function preventBehavior(e) 
+	{ 
+      e.preventDefault(); 
+    };
+	document.addEventListener("touchmove", preventBehavior, false);
+
+    function onBodyLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // PhoneGap is ready
+    //
+    function onDeviceReady() {
+    }
+    
+    function searchContact() {
+        navigator.contacts.chooseContact(onSucessContact);
+    }
+    
+    function onSucessContact(contact) {
+        var selectedContact = contact.name;
+        x$('#ul_contacts').html( 'inner', "<li>" + selectedContact + "</li>");        
+    }
+    
+    function showAlert(title, msg) {
+       navigator.notification.alert(msg, title, "OK");
+    }
+
+
+    </script>
+  </head>
+  <body onload="onBodyLoad()">
+    	<div id="header">
+		<h1>Contacts</h1>
+	</div>
+
+	<h1>Working with contacts</h1>
+		
+
+	<p id="p_btn"><a href="#" id="mybtn" onclick="searchContact()" class="button white">Select</a></p>
+
+	<ul id='ul_contacts'></ul>
+  </body>
+</html>

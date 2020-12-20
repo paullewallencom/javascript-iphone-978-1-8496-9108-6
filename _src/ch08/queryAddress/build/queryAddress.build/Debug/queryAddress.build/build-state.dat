@@ -1,0 +1,103 @@
+TqueryAddress
+v7
+r1
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/Default.png
+c000000004D38B77A0000000000000BAE
+t1295562618
+s2990
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/PhoneGap.plist
+c000000004D38B77A000000000000027E
+t1295562618
+s638
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/Info.plist
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/PkgInfo
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/Resources/PhoneGap.plist
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/Resources/VERSION
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/Resources/www
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/queryAddress.build/Debug/queryAddress.build/Script-304B58A110DAC018002A0835.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/build/queryAddress.build/Debug/queryAddress.build/Script-30E9A9A110B758320022D3BA.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/icon.png
+c000000004D38B77A0000000000000C36
+t1295562618
+s3126
+
+N/Library/WebServer/Documents/code/ch08/queryAddress/www
+c000000004D38B77A0000000000000066
+t1295562618
+s102
+
+N/Users/arturo/Documents/PhoneGapLib/VERSION
+c000000004C0E3C4A0000000000000005
+t1276001354
+s5
+
+NqueryAddress-Info.plist
+c000000004D38B77A00000000000005C2
+t1295562618
+s1474
+
+CCopyPlistFile /Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/Resources/PhoneGap.plist PhoneGap.plist
+r0
+
+CCpResource build/Debug/queryAddress.app/Contents/Resources/Default.png Default.png
+r0
+
+CCpResource build/Debug/queryAddress.app/Contents/Resources/VERSION /Users/arturo/Documents/PhoneGapLib/VERSION
+r0
+
+CCpResource build/Debug/queryAddress.app/Contents/Resources/icon.png icon.png
+r0
+
+CCpResource build/Debug/queryAddress.app/Contents/Resources/www www
+r0
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" /Library/WebServer/Documents/code/ch08/queryAddress/build/queryAddress.build/Debug/queryAddress.build/Script-30E9A9A110B758320022D3BA.sh
+r0
+
+CPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/code/ch08/queryAddress/build/queryAddress.build/Debug/queryAddress.build/Script-304B58A110DAC018002A0835.sh
+r0
+
+CProcessInfoPlistFile /Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app/Contents/Info.plist queryAddress-Info.plist
+r0
+
+CTouch /Library/WebServer/Documents/code/ch08/queryAddress/build/Debug/queryAddress.app
+r0
+

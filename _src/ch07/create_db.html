@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=0;" />
+	<title>Creating database</title>
+	<link rel="stylesheet" href="../uiuikit/stylesheets/iphone.css" />
+	<script type="text/javascript" charset="utf-8">
+	function create_db() {
+		var db_kb_size = 256;
+		var db_size = 1024 * db_kb_size;
+		var db = openDatabase('firstDB', '1.0', 'firstDB', db_kb_size);
+		if (db) {
+			alert("Database created!")
+		} else {
+			alert("Error!")
+		}
+	}
+	</script>
+</head>
+
+<body>
+
+	<div id="header">
+		<h1>Database</h1>
+	</div>
+
+	<ul class="data">
+		<li>
+		    <p>How to create a new database</p>
+		</li>
+	</ul>
+
+  <p>
+      <a href="#" onclick="create_db()" class="button white">Create it!</a>
+  </p>
+
+</body>
+</html>

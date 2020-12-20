@@ -1,0 +1,498 @@
+Tbeep
+v7
+r0
+t313416615.020663
+cCheck dependencies
+cProcessInfoPlistFile /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/Info.plist beep-Info.plist
+cPhaseScriptExecution "Copy PhoneGap Javascript" /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-30E9A9A110B758320022D3BA.sh
+cPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-304B58A110DAC018002A0835.sh
+cCpResource build/Debug-iphonesimulator/beep.app/www www
+cCpResource build/Debug-iphonesimulator/beep.app/VERSION /Users/arturo/Documents/PhoneGapLib/VERSION
+cCpResource build/Debug-iphonesimulator/beep.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/beep.app/icon.png icon.png
+cCopyPlistFile /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/PhoneGap.plist PhoneGap.plist
+cProcessPCH /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/beep_Prefix-bwqdzigrwdaudqcpawjqbhqhokqu/beep_Prefix.pch.gch beep_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/main.o /Library/WebServer/Documents/code/ch05/beep/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beepAppDelegate.o /Library/WebServer/Documents/code/ch05/beep/Classes/beepAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep normal i386
+cGenerateDSYMFile /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app.dSYM /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep
+cTouch /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C5A5EAD00000000000D2090
+t1280990893
+s860304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C5A5EA10000000000000703
+t1280990881
+s1795
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004C5A50360000000000075DC0
+t1280987190
+s482752
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABAddressBook.h
+c000000004C5A50320000000000000A8C
+t1280987186
+s2700
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004C5E1EA5000000000014B400
+t1281236645
+s1356800
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004C5E1E8A0000000000000202
+t1281236618
+s514
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C5A4D1600000000001E06E0
+t1280986390
+s1967840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004C5A4D020000000000010AAD
+t1280986370
+s68269
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004C5A4D8A00000000001C17C0
+t1280986506
+s1841088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C6C2FF1000000000006B7E0
+t1282158577
+s440288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004C6C2FEA00000000000001D0
+t1282158570
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004C68BA00000000000015B0F0
+t1281931776
+s1421552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004C5A5030000000000005AA60
+t1280987184
+s371296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004C5A4CD400000000000678D0
+t1280986324
+s424144
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h
+c000000004C6241EF0000000000001971
+t1281507823
+s6513
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITabBar.h
+c000000004C6241F00000000000000C05
+t1281507824
+s3077
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIToolbar.h
+c000000004C6241EE000000000000072C
+t1281507822
+s1836
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Library/WebServer/Documents/code/ch05/beep/Classes/beepAppDelegate.h
+c000000004CFDFB9100000000000000F5
+t1291713425
+s245
+i<UIKit/UIKit.h>
+i"PhoneGapDelegate.h"
+
+N/Library/WebServer/Documents/code/ch05/beep/Classes/beepAppDelegate.m
+c000000004CFDFB9100000000000007E0
+t1291713425
+s2016
+i"beepAppDelegate.h"
+i"PhoneGapViewController.h"
+
+N/Library/WebServer/Documents/code/ch05/beep/Default.png
+c000000004CFDFB910000000000000BAE
+t1291713425
+s2990
+
+N/Library/WebServer/Documents/code/ch05/beep/PhoneGap.plist
+c000000004CFDFB91000000000000027E
+t1291713425
+s638
+
+N/Library/WebServer/Documents/code/ch05/beep/beep_Prefix.pch
+c000000004CFDFB9100000000000000B1
+t1291713425
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app
+t1291723815
+s340
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app.dSYM
+t1291718586
+s102
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/Default.png
+t1291718581
+s2990
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/Info.plist
+t1291718581
+s913
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/PhoneGap.plist
+t1291718581
+s255
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/PkgInfo
+t1291718581
+s8
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/VERSION
+t1291718581
+s5
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep
+t1291718586
+s264012
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/icon.png
+t1291718581
+s3126
+
+N/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/www
+t1291723814
+s204
+
+N/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beep.LinkFileList
+c000000004CFE0FB500000000000000FD
+t1291718581
+s253
+
+N/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beepAppDelegate.o
+t1291718584
+s46068
+
+N/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/main.o
+t1291718584
+s6492
+
+N/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-304B58A110DAC018002A0835.sh
+c000000004CFE0FB50000000000000027
+t1291718581
+s39
+
+N/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-30E9A9A110B758320022D3BA.sh
+c000000004CFE0FB500000000000000BE
+t1291718581
+s190
+
+N/Library/WebServer/Documents/code/ch05/beep/icon.png
+c000000004CFDFB910000000000000C36
+t1291713425
+s3126
+
+N/Library/WebServer/Documents/code/ch05/beep/main.m
+c000000004CFDFB91000000000000016F
+t1291713425
+s367
+i<UIKit/UIKit.h>
+
+N/Library/WebServer/Documents/code/ch05/beep/www
+c000000004CFE4E6400000000000000CC
+t1291734628
+s204
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/Contacts.h
+c000000004C0E3C4A0000000000000A53
+t1276001354
+s2643
+i<Foundation/Foundation.h>
+i<AddressBook/ABAddressBook.h>
+i<AddressBookUI/AddressBookUI.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/DebugConsole.h
+c000000004C0E3C4A0000000000000170
+t1276001354
+s368
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/JSON/JSON.h
+c000000004C0E3C4A00000000000008F9
+t1276001354
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/Location.h
+c000000004C0E3C4A0000000000000530
+t1276001354
+s1328
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/PhoneGapCommand.h
+c000000004C0E3C4A00000000000002ED
+t1276001354
+s749
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/PhoneGapDelegate.h
+c000000004C0E3C4A00000000000006D8
+t1276001354
+s1752
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<UIKit/UINavigationController.h>
+i"JSON/JSON.h"
+i"Location.h"
+i"Sound.h"
+i"Contacts.h"
+i"DebugConsole.h"
+i"UIControls.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/PhoneGapViewController.h
+c000000004C0E3C4A0000000000000293
+t1276001354
+s659
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/Sound.h
+c000000004C0E3C4A000000000000060C
+t1276001354
+s1548
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+i<AVFoundation/AVFoundation.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/Classes/UIControls.h
+c000000004C0E3C4A000000000000066A
+t1276001354
+s1642
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<UIKit/UITabBar.h>
+i<UIKit/UIToolbar.h>
+i"PhoneGapCommand.h"
+
+N/Users/arturo/Documents/PhoneGapLib/VERSION
+c000000004C0E3C4A0000000000000005
+t1276001354
+s5
+
+N/Users/arturo/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a
+c000000004CB344500000000000120348
+t1286816848
+s1180488
+
+N/Users/arturo/Documents/PhoneGapLib/build/Debug/libPhoneGapLib.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/beep_Prefix-bwqdzigrwdaudqcpawjqbhqhokqu/beep_Prefix.pch.gch
+t1291718583
+s15240208
+
+Nbeep-Info.plist
+c000000004CFDFB9100000000000005C2
+t1291713425
+s1474
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313416614#313416614#0(0"0(0#1#0"8620168128#0"0#
+
+CCompileC build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beepAppDelegate.o /Library/WebServer/Documents/code/ch05/beep/Classes/beepAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313411384.174818
+e313411384.561791
+r1
+xCompileC
+xbuild/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beepAppDelegate.o
+x/Library/WebServer/Documents/code/ch05/beep/Classes/beepAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Library/WebServer/Documents/code/ch05/beep/Classes/beepAppDelegate.m313411384#313411384#0(0"0(0#0#69"/Library/WebServer/Documents/code/ch05/beep/Classes/beepAppDelegate.m8620607456#1990"    cd /Library/WebServer/Documents/code/ch05/beep    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-generated-files.hmap -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-own-target-headers.hmap -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-all-target-headers.hmap -iquote /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-project-headers.hmap -F/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator -iquote/Users/arturo/Documents/PhoneGapLib/Classes -I/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/include -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources/i386 -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources -include /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/beep_Prefix-bwqdzigrwdaudqcpawjqbhqhokqu/beep_Prefix.pch -c /Library/WebServer/Documents/code/ch05/beep/Classes/beepAppDelegate.m -o /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beepAppDelegate.o0#
+
+CCompileC build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/main.o /Library/WebServer/Documents/code/ch05/beep/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313411384.173041
+e313411384.444752
+r1
+xCompileC
+xbuild/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/main.o
+x/Library/WebServer/Documents/code/ch05/beep/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Library/WebServer/Documents/code/ch05/beep/main.m313411384#313411384#0(0"0(0#0#50"/Library/WebServer/Documents/code/ch05/beep/main.m8609163648#1960"    cd /Library/WebServer/Documents/code/ch05/beep    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-generated-files.hmap -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-own-target-headers.hmap -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-all-target-headers.hmap -iquote /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-project-headers.hmap -F/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator -iquote/Users/arturo/Documents/PhoneGapLib/Classes -I/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/include -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources/i386 -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources -include /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/beep_Prefix-bwqdzigrwdaudqcpawjqbhqhokqu/beep_Prefix.pch -c /Library/WebServer/Documents/code/ch05/beep/main.m -o /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/main.o0#
+
+CCopyPlistFile /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/PhoneGap.plist PhoneGap.plist
+s313411381.320817
+e313411381.814184
+r1
+xCopyPlistFile
+x/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/PhoneGap.plist
+xPhoneGap.plist
+lSLF07#2@19"Copy PhoneGap.plist313411381#313411381#0(0"0(0#0#58"/Library/WebServer/Documents/code/ch05/beep/PhoneGap.plist8619765152#396"    cd /Library/WebServer/Documents/code/ch05/beep    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 PhoneGap.plist --outdir /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app0#
+
+CCpResource build/Debug-iphonesimulator/beep.app/Default.png Default.png
+s313411381.316892
+e313411381.455429
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/beep.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png313411381#313411381#0(0"0(0#0#55"/Library/WebServer/Documents/code/ch05/beep/Default.png8618914688#467"    cd /Library/WebServer/Documents/code/ch05/beep    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/WebServer/Documents/code/ch05/beep/Default.png /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app0#
+
+CCpResource build/Debug-iphonesimulator/beep.app/VERSION /Users/arturo/Documents/PhoneGapLib/VERSION
+s313411381.314916
+e313411381.457401
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/beep.app/VERSION
+x/Users/arturo/Documents/PhoneGapLib/VERSION
+lSLF07#2@48"Copy /Users/arturo/Documents/PhoneGapLib/VERSION313411381#313411381#0(0"0(0#0#43"/Users/arturo/Documents/PhoneGapLib/VERSION8610745152#455"    cd /Library/WebServer/Documents/code/ch05/beep    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/arturo/Documents/PhoneGapLib/VERSION /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app0#
+
+CCpResource build/Debug-iphonesimulator/beep.app/icon.png icon.png
+s313411381.318850
+e313411381.456401
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/beep.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png313411381#313411381#0(0"0(0#0#52"/Library/WebServer/Documents/code/ch05/beep/icon.png8618770464#464"    cd /Library/WebServer/Documents/code/ch05/beep    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/WebServer/Documents/code/ch05/beep/icon.png /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app0#
+
+CCpResource build/Debug-iphonesimulator/beep.app/www www
+s313416614.891931
+e313416615.014213
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/beep.app/www
+xwww
+lSLF07#2@8"Copy www313416614#313416615#0(0"0(0#0#47"/Library/WebServer/Documents/code/ch05/beep/www8617926336#459"    cd /Library/WebServer/Documents/code/ch05/beep    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/WebServer/Documents/code/ch05/beep/www /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app0#
+
+CGenerateDSYMFile /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app.dSYM /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep
+s313411386.044418
+e313411386.259131
+r1
+xGenerateDSYMFile
+x/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app.dSYM
+x/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/beep.app.dSYM build/Debug-iphonesimulator/beep.app/beep313411386#313411386#0(0"0(0#0#85"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep8620505152#389"    cd /Library/WebServer/Documents/code/ch05/beep    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep -o /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app.dSYM0#
+
+CLd /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep normal i386
+s313411384.561918
+e313411386.044178
+r1
+xLd
+x/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep
+xnormal
+xi386
+lSLF07#2@90"Link /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep313411384#313411386#0(0"0(0#0#0"8620295968#1255"    cd /Library/WebServer/Documents/code/ch05/beep    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator -F/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator -filelist /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beep.LinkFileList -mmacosx-version-min=10.6 -all_load -Obj-C -Xlinker -objc_abi_version -Xlinker 2 /Users/arturo/Documents/PhoneGapLib/build/Debug-iphonesimulator/libPhoneGapLib.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -o /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/beep0#
+
+CPhaseScriptExecution "Copy PhoneGap Javascript" /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-30E9A9A110B758320022D3BA.sh
+s313416614.814460
+e313416614.853667
+r1
+xPhaseScriptExecution
+xCopy PhoneGap Javascript
+x/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-30E9A9A110B758320022D3BA.sh
+omake: Nothing to be done for `all'.
+ocp /Users/arturo/Documents/PhoneGapLib/javascripts/phonegap.js /Library/WebServer/Documents/code/ch05/beep/www/phonegap.js
+lSLF07#2@50"Run custom shell script 'Copy PhoneGap Javascript'313416614#313416614#0(159"make: Nothing to be done for `all'.cp /Users/arturo/Documents/PhoneGapLib/javascripts/phonegap.js /Library/WebServer/Documents/code/ch05/beep/www/phonegap.js2(13@36"make: Nothing to be done for `all'.313416614#0#36#0(1@0"0(13@123"cp /Users/arturo/Documents/PhoneGapLib/javascripts/phonegap.js /Library/WebServer/Documents/code/ch05/beep/www/phonegap.js313416614#36#123#0(1@0"0(0#0#0"8618208448#17047"    cd /Library/WebServer/Documents/code/ch05/beep    setenv ACTION build    setenv ALTERNATE_GROUP arturo    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER arturo    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Library/WebServer/Documents/code/ch05/beep/build    setenv BUILD_ROOT /Library/WebServer/Documents/code/ch05/beep/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH beep.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources    setenv DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH beep.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/beep.dst    setenv DWARF_DSYM_FILE_NAME beep.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH beep.app/Executables    setenv EXECUTABLE_FOLDER_PATH beep.app    setenv EXECUTABLE_NAME beep    setenv EXECUTABLE_PATH beep.app/beep    setenv FILE_LIST /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH beep.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME beep.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER beep_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP arturo    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE beep-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH beep.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH beep.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/beep.dst/Users/arturo/Applications    setenv INSTALL_GROUP arturo    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER arturo    setenv INSTALL_PATH /Users/arturo/Applications    setenv INSTALL_ROOT /tmp/beep.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH beep.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beep.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH beep.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects    setenv OBJECT_FILE_DIR_normal /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal    setenv OBJROOT /Library/WebServer/Documents/code/ch05/beep/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH beep.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/arturo/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/PkgInfo    setenv PKGINFO_PATH beep.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH beep.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH beep.app/PrivateHeaders    setenv PRODUCT_NAME beep    setenv PRODUCT_SETTINGS_PATH /Library/WebServer/Documents/code/ch05/beep/beep-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT beep    setenv PROJECT_DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/DerivedSources    setenv PROJECT_DIR /Library/WebServer/Documents/code/ch05/beep    setenv PROJECT_FILE_PATH /Library/WebServer/Documents/code/ch05/beep/beep.xcodeproj    setenv PROJECT_NAME beep    setenv PROJECT_TEMP_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build    setenv PUBLIC_HEADERS_FOLDER_PATH beep.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH beep.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_NAME iphonesimulator4.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH beep.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH beep.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Library/WebServer/Documents/code/ch05/beep    setenv SRCROOT /Library/WebServer/Documents/code/ch05/beep    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/SymbolRepositories    setenv SYMROOT /Library/WebServer/Documents/code/ch05/beep/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME beep    setenv TARGET_BUILD_DIR /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator    setenv TARGET_NAME beep    setenv TARGET_TEMP_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build    setenv TEMP_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build    setenv TEMP_FILES_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build    setenv TEMP_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build    setenv TEMP_ROOT /Library/WebServer/Documents/code/ch05/beep/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH beep.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER arturo    setenv USER_APPS_DIR /Users/arturo/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/arturo/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/arturo/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH beep.app/version.plist    setenv VERSION_INFO_BUILDER arturo    setenv VERSION_INFO_FILE beep_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:beep  PROJECT:beep-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME beep.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-30E9A9A110B758320022D3BA.sh0#
+
+CPhaseScriptExecution "Touch www folder" /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-304B58A110DAC018002A0835.sh
+s313416614.853784
+e313416614.891405
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-304B58A110DAC018002A0835.sh
+lSLF07#2@42"Run custom shell script 'Touch www folder'313416614#313416614#0(0"0(0#0#0"8619075520#17047"    cd /Library/WebServer/Documents/code/ch05/beep    setenv ACTION build    setenv ALTERNATE_GROUP arturo    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER arturo    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Library/WebServer/Documents/code/ch05/beep/build    setenv BUILD_ROOT /Library/WebServer/Documents/code/ch05/beep/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH beep.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources    setenv DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH beep.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/beep.dst    setenv DWARF_DSYM_FILE_NAME beep.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH beep.app/Executables    setenv EXECUTABLE_FOLDER_PATH beep.app    setenv EXECUTABLE_NAME beep    setenv EXECUTABLE_PATH beep.app/beep    setenv FILE_LIST /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH beep.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME beep.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER beep_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP arturo    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE beep-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH beep.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH beep.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/beep.dst/Users/arturo/Applications    setenv INSTALL_GROUP arturo    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER arturo    setenv INSTALL_PATH /Users/arturo/Applications    setenv INSTALL_ROOT /tmp/beep.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH beep.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal/i386/beep.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH beep.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects    setenv OBJECT_FILE_DIR_normal /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Objects-normal    setenv OBJROOT /Library/WebServer/Documents/code/ch05/beep/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH beep.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/arturo/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/PkgInfo    setenv PKGINFO_PATH beep.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH beep.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH beep.app/PrivateHeaders    setenv PRODUCT_NAME beep    setenv PRODUCT_SETTINGS_PATH /Library/WebServer/Documents/code/ch05/beep/beep-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT beep    setenv PROJECT_DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/DerivedSources    setenv PROJECT_DIR /Library/WebServer/Documents/code/ch05/beep    setenv PROJECT_FILE_PATH /Library/WebServer/Documents/code/ch05/beep/beep.xcodeproj    setenv PROJECT_NAME beep    setenv PROJECT_TEMP_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build    setenv PUBLIC_HEADERS_FOLDER_PATH beep.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH beep.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_NAME iphonesimulator4.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH beep.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH beep.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Library/WebServer/Documents/code/ch05/beep    setenv SRCROOT /Library/WebServer/Documents/code/ch05/beep    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/SymbolRepositories    setenv SYMROOT /Library/WebServer/Documents/code/ch05/beep/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME beep    setenv TARGET_BUILD_DIR /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator    setenv TARGET_NAME beep    setenv TARGET_TEMP_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build    setenv TEMP_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build    setenv TEMP_FILES_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build    setenv TEMP_FILE_DIR /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build    setenv TEMP_ROOT /Library/WebServer/Documents/code/ch05/beep/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH beep.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER arturo    setenv USER_APPS_DIR /Users/arturo/Applications    setenv USER_HEADER_SEARCH_PATHS /Users/arturo/Documents/PhoneGapLib/Classes    setenv USER_LIBRARY_DIR /Users/arturo/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH beep.app/version.plist    setenv VERSION_INFO_BUILDER arturo    setenv VERSION_INFO_FILE beep_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:beep  PROJECT:beep-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME beep.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/Script-304B58A110DAC018002A0835.sh0#
+
+CProcessInfoPlistFile /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/Info.plist beep-Info.plist
+s313411381.136419
+e313411381.140906
+r1
+xProcessInfoPlistFile
+x/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/Info.plist
+xbeep-Info.plist
+lSLF07#2@23"Process beep-Info.plist313411381#313411381#0(0"0(0#0#59"/Library/WebServer/Documents/code/ch05/beep/beep-Info.plist8618119328#485"    cd /Library/WebServer/Documents/code/ch05/beep    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility beep-Info.plist -genpkginfo /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app/Info.plist0#
+
+CProcessPCH /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/beep_Prefix-bwqdzigrwdaudqcpawjqbhqhokqu/beep_Prefix.pch.gch beep_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313411381.814326
+e313411384.172682
+r1
+xProcessPCH
+x/var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/beep_Prefix-bwqdzigrwdaudqcpawjqbhqhokqu/beep_Prefix.pch.gch
+xbeep_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile beep_Prefix.pch313411381#313411384#0(0"0(0#0#59"/Library/WebServer/Documents/code/ch05/beep/beep_Prefix.pch8619064832#1850"    cd /Library/WebServer/Documents/code/ch05/beep    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-generated-files.hmap -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-own-target-headers.hmap -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-all-target-headers.hmap -iquote /Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/beep-project-headers.hmap -F/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator -iquote/Users/arturo/Documents/PhoneGapLib/Classes -I/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/include -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources/i386 -I/Library/WebServer/Documents/code/ch05/beep/build/beep.build/Debug-iphonesimulator/beep.build/DerivedSources -c /Library/WebServer/Documents/code/ch05/beep/beep_Prefix.pch -o /var/folders/fd/fd8B-cp6EtSq0ZrXhnSA9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/beep_Prefix-bwqdzigrwdaudqcpawjqbhqhokqu/beep_Prefix.pch.gch0#
+
+CTouch /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app
+s313416615.014849
+e313416615.020610
+r1
+xTouch
+x/Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app
+lSLF07#2@86"Touch /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app313416615#313416615#0(0"0(0#0#0"8621205984#285"    cd /Library/WebServer/Documents/code/ch05/beep    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Library/WebServer/Documents/code/ch05/beep/build/Debug-iphonesimulator/beep.app0#
+

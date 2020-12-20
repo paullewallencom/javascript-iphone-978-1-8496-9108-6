@@ -1,0 +1,142 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* vibrate */ = {
+		activeExec = 0;
+		executables = (
+			69748DC612AE61E20041E6BC /* vibrate */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 69748DC612AE61E20041E6BC /* vibrate */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* vibrate */;
+		codeSenseManager = 69748DDF12AE61E70041E6BC /* Code sense */;
+		executables = (
+			69748DC612AE61E20041E6BC /* vibrate */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313418210;
+			PBXWorkspaceStateSaveDate = 313418210;
+		};
+		perUserProjectItems = {
+			69748DE012AE62360041E6BC /* PBXBookmark */ = 69748DE012AE62360041E6BC /* PBXBookmark */;
+			69748DE912AE629F0041E6BC /* PBXBookmark */ = 69748DE912AE629F0041E6BC /* PBXBookmark */;
+			69748DF912AE86730041E6BC /* PBXTextBookmark */ = 69748DF912AE86730041E6BC /* PBXTextBookmark */;
+			69748DFB12AE86730041E6BC /* PBXTextBookmark */ = 69748DFB12AE86730041E6BC /* PBXTextBookmark */;
+		};
+		sourceControlManager = 69748DDE12AE61E70041E6BC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	69748DC612AE61E20041E6BC /* vibrate */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = vibrate;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	69748DC912AE61E20041E6BC /* index.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		path = index.html;
+		sourceTree = "<group>";
+	};
+	69748DDE12AE61E70041E6BC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	69748DDF12AE61E70041E6BC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	69748DE012AE62360041E6BC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 69748DC912AE61E20041E6BC /* index.html */;
+	};
+	69748DE912AE629F0041E6BC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 69748DC912AE61E20041E6BC /* index.html */;
+	};
+	69748DF912AE86730041E6BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69748DFA12AE86730041E6BC /* index.html */;
+		name = "index.html: 9";
+		rLen = 0;
+		rLoc = 327;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 0;
+	};
+	69748DFA12AE86730041E6BC /* index.html */ = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = /Library/WebServer/Documents/code/ch05/vibrate/www/index.html;
+		sourceTree = "<absolute>";
+	};
+	69748DFB12AE86730041E6BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69748DFC12AE86730041E6BC /* index.html */;
+		name = "index.html: 62";
+		rLen = 0;
+		rLoc = 1712;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 338;
+	};
+	69748DFC12AE86730041E6BC /* index.html */ = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = /Library/WebServer/Documents/code/ch05/vibrate/www/index.html;
+		sourceTree = "<absolute>";
+	};
+}

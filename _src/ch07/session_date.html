@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+ 
+<head> 
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /> 
+<meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" /> 
+<link href="../iwebkit/css/style.css" rel="stylesheet" media="screen" type="text/css" /> 
+<script src="../iwebkit/javascript/functions.js" type="text/javascript"></script> 
+	<script type="text/javascript" src="../xui/xui-2.0.0.min.js"></script>
+<title>Current date</title> 
+<script type="text/javascript" charset="utf-8">
+function get_today() {
+
+		if (sessionStorage.today == undefined) {
+			var toD = new Date();
+			var day =  toD.getDate();
+			var year =  toD.getFullYear();
+			var month =  toD.getMonth() + 1;
+
+			if (localStorage.lang != undefined)
+				if (localStorage.lang == 'English') {
+						sessionStorage.today = month + "/" + day + "/" + year;
+				}
+				else {
+						sessionStorage.today = day + "/" + month + "/" + year;
+				}
+			else {
+						sessionStorage.today = day + "/" + month + "/" + year;
+			}
+	}
+	x$("#today").html("inner", "Today is " + sessionStorage.today)
+}
+
+</script>
+</head>
+
+<body onload="get_today()">
+
+	<div id="topbar"> 
+		<div id="title">Today</div> 
+	</div> 
+	
+	<div id="content"> 
+	 <span class="graytitle" id="today"></span>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+	background: rgb(197,204,211); 
+}
+.card {
+  text-align: center;
+  color: #204167;
+  text-shadow: #3F80CA 0 1px 0;
+  font-size: 72px;
+  padding: 80px 40px;
+ }
+        
+ .x-phone .card {
+  padding: 10px;
+  font-size: 36px;
+ }
+ 
+

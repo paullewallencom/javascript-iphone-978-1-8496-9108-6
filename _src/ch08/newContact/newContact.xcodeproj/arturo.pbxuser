@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* newContact */ = {
+		activeExec = 0;
+		executables = (
+			69F6D64712F0E1DD009A73F5 /* newContact */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 69F6D64712F0E1DD009A73F5 /* newContact */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* newContact */;
+		codeSenseManager = 69F6D65B12F0E1FC009A73F5 /* Code sense */;
+		executables = (
+			69F6D64712F0E1DD009A73F5 /* newContact */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					645,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318292163;
+			PBXWorkspaceStateSaveDate = 318292163;
+		};
+		perUserProjectItems = {
+			69F20CD712F8AF07009FC0CB /* PBXTextBookmark */ = 69F20CD712F8AF07009FC0CB /* PBXTextBookmark */;
+			69F20E0512F8CA42009FC0CB /* PBXTextBookmark */ = 69F20E0512F8CA42009FC0CB /* PBXTextBookmark */;
+			69F6D72112F0EDFD009A73F5 /* PBXTextBookmark */ = 69F6D72112F0EDFD009A73F5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 69F6D65A12F0E1FC009A73F5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	69F20CD712F8AF07009FC0CB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69F20CD812F8AF07009FC0CB /* index.html */;
+		name = "index.html: 26";
+		rLen = 0;
+		rLoc = 738;
+		rType = 0;
+		vrLen = 987;
+		vrLoc = 314;
+	};
+	69F20CD812F8AF07009FC0CB /* index.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = index.html;
+		path = /Library/WebServer/Documents/code/ch08/newContact/www/index.html;
+		sourceTree = "<absolute>";
+	};
+	69F20E0512F8CA42009FC0CB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69F20E0612F8CA42009FC0CB /* index.html */;
+		name = "index.html: 12";
+		rLen = 151;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 0;
+	};
+	69F20E0612F8CA42009FC0CB /* index.html */ = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = /Library/WebServer/Documents/code/ch08/newContact/www/index.html;
+		sourceTree = "<absolute>";
+	};
+	69F6D64712F0E1DD009A73F5 /* newContact */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = newContact;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	69F6D65A12F0E1FC009A73F5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	69F6D65B12F0E1FC009A73F5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	69F6D72112F0EDFD009A73F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69F6D72212F0EDFD009A73F5 /* phonegap.js */;
+		name = "phonegap.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 236;
+	};
+	69F6D72212F0EDFD009A73F5 /* phonegap.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = phonegap.js;
+		path = /Library/WebServer/Documents/code/ch08/newContact/www/phonegap.js;
+		sourceTree = "<absolute>";
+	};
+}

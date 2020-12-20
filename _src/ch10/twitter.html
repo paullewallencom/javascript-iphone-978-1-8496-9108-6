@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="apple-touch-icon" href="../uiuikit/images/apple-touch-icon.png" />
+	<meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<title>My tweets</title>
+	<link rel="stylesheet" href="../uiuikit/stylesheets/iphone.css" />
+	<script type="text/javascript" charset="utf-8" src="../xui-2.0.0.min.js"> </script>
+</head>
+
+<!-- <body> -->
+<body id="normal"> 
+	<div id="header"> 
+		<h1>Last tweets</h1> 
+	</div> 
+	<ul id="tlist">	
+	</ul>
+
+<script>
+function my_tweets(tweets) {
+	var ele = "";
+	for (i=0; i < tweets.length; i++) {
+		//ele += "<li>" + tweets[i].text + "</li>";
+		ele += "<li><img class='ico' src='" + tweets[i].user.profile_image_url + "' />" + tweets[i].text + "</li>";
+	}
+    x$('#tlist').html(ele);
+}
+</script>
+ 
+<script src="http://twitter.com/statuses/user_timeline/bsnux.json?callback=my_tweets&count=5"></script>
+
+
+</body> 
+
+</html>
